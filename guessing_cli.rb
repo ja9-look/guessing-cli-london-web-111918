@@ -5,9 +5,11 @@ def run_guessing_game
   user_guess = gets.chomp
     if user_guess == random_guess.to_f
       puts "You guessed correctly!"
+      run_guessing_game
     elsif user_guess == "exit"
       puts "Goodbye"
     else
       puts "#{user_guess} is incorrect."
+      run_guessing_game
     end
 end
