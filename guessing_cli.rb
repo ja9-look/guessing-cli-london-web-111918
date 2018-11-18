@@ -4,5 +4,7 @@ def run_guessing_game
   puts "Guess a number between 1 and 6:"
   user_guess = gets.chomp
     if user_guess == random_guess.to_f
+      puts "You guessed correctly!"
+    elsif user_guess != random_guess.to_f
       
 end
