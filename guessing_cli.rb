@@ -6,5 +6,8 @@ def run_guessing_game
     if user_guess == random_guess.to_f
       puts "You guessed correctly!"
     elsif user_guess == "exit"
-      puts ""
+      puts "Goodbye"
+    else
+      puts "#{user_guess} is incorrect."
+    end
 end
