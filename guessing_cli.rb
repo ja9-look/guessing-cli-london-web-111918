@@ -5,6 +5,7 @@ def run_guessing_game
   user_guess = gets.chomp
    while !(user_guess == "exit") do
      if user_guess == "exit"
+       puts "Goodbye"
       break
       elsif user_guess == random_guess.to_s 
         puts "You guessed the correct number!"
