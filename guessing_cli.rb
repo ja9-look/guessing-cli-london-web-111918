@@ -10,5 +10,8 @@ def run_guessing_game
       puts "You guessed the number correct!"
     elsif user_guess != random_guess.to_s
       puts "The computer guessed #{random_guess}."  
-      
+    end
+  user_guess = gets.chomp
+  
+  
 end
