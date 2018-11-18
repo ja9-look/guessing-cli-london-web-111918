@@ -8,7 +8,7 @@ def run_guessing_game
       run_guessing_game
     elsif user_guess == "exit"
       puts "Goodbye!"
-    elsif user_guess != random_guess.to_f && user_guess != "exit"
+    else
       puts "#{user_guess} is incorrect."
       run_guessing_game
     end
