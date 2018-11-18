@@ -9,5 +9,5 @@ def run_guessing_game
     elsif user_guess == random_guess.to_s 
       puts "You guessed the number correct!"
     elsif user_guess != random_guess.to_s
-      puts ""  
+      puts "The computer guessed #{random_guess}"  
 end
